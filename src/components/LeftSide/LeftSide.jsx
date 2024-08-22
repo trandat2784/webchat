@@ -9,6 +9,11 @@ function LeftSide() {
             <img src={assets.logo} alt="" className="ls-logo" />
             <div className="menu">
               <img src={assets.menu_icon} className="ls-menu-more" alt="" />
+              <div className="sub-menu">
+                <p>Edit profile</p>
+                <hr/>
+                <p>Log out</p>
+              </div>
             </div>
           </div>
         </div>
@@ -21,10 +26,6 @@ function LeftSide() {
           />
         </div>
         <div className="ls-list">
-
-
-
- 
           <div className="friends">
             <img src={assets.profile_img} alt="" />
             <div className="friends-info">
