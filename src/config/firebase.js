@@ -55,4 +55,4 @@ const LogOut= async ()=>{
     toast.error(error.message);
   }
 }
-export {SignUp,LogIn,LogOut,auth}
+export {SignUp,LogIn,LogOut,auth,db}

@@ -1,6 +1,8 @@
 import "./LeftSide.css";
 import assets from "../../assets/assets";
+import { useNavigate } from "react-router-dom";
 function LeftSide() {
+  const navigate = useNavigate()
   return (
     <div>
       <div className="ls">
@@ -10,7 +12,7 @@ function LeftSide() {
             <div className="menu">
               <img src={assets.menu_icon} className="ls-menu-more" alt="" />
               <div className="sub-menu">
-                <p>Edit profile</p>
+                <p onClick={()=>navigate("/profile")}>Edit profile</p>
                 <hr/>
                 <p>Log out</p>
               </div>
